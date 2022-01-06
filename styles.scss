@@ -47,6 +47,7 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
+  padding-bottom: 3rem;
 }
 
 /* A elements that don't have a class get default styles */
@@ -179,6 +180,8 @@ body {
   font-weight: 900;
   color: var(--bright-blue);
   transition: opacity 0.25s;
+  font-size: 0.85rem;
+  margin-right: 0.25rem;
 }
 
 .resource-change:hover {
@@ -234,6 +237,11 @@ $btnFilledFontColor: var(--white);
 }
 
 .attribution {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 2rem;
   margin-top: 1rem;
   font-size: 11px;
   color: var(--desaturated-blue);
